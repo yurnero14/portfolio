@@ -38,23 +38,7 @@ export const pagesConfig: PagesConfig = {
       description: "Naman Barkiya's experience in building web applications.",
     },
   },
-  contact: {
-    title: "Contact",
-    description: "Let's connect and explore collaborations.",
-    metadata: {
-      title: "Contact",
-      description: "Contact Naman Barkiya.",
-    },
-  },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
-    metadata: {
-      title: "Contributions",
-      description:
-        "Naman Barkiya's open-source contributions and community involvement.",
-    },
-  },
+  
   resume: {
     title: "Resume",
     description: "Naman Barkiya's resume.",

@@ -70,6 +70,4 @@ export type ValidPages =
   | "skills"
   | "experience"
   | "career"
-  | "contact"
-  | "contributions"
   | "resume";

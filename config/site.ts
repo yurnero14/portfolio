@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Naman Barkiya | Developer Portfolio Template",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Muhammad Sarib Khan portfolio",
+  authorName: "Muhammad Sarib Khan",
+  username: "saribkhan",
   description:
     "Naman Barkiya's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://nbarkiya.xyz",
