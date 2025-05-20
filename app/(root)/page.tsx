@@ -99,7 +99,7 @@ export default function IndexPage() {
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
               Partly Web development enthusiast, Partly AI enjoyer, and full sleep deprived. 
-              Debuggin life as I am about to finish my master's in Computer Engineering
+              Debugging life as I am about to finish my master&apos;s in Computer Engineering
             </p>
           </div>
 
