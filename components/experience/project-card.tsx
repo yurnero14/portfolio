@@ -31,18 +31,22 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="flex gap-2 flex-wrap">
           <ChipContainer textArr={project.category} />
         </div>
-        <Link href={`/experience/${project.id}`}>
-          <Button variant={"default"} className="mt-2">
-            Read more
+        <a
+         href={project.githubLink}
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          <Button variant="default" className="mt-2">
+             View on GitHub
             <Icons.chevronRight className="w-4 ml-1" />
           </Button>
-        </Link>
+        </a>
       </div>
       <div className="absolute bottom-4 right-4 p-3 rounded-full bg-background border border-border">
         {project.type === "Personal Project" ? (
           <Icons.userFill className="h-4 w-4" />
         ) : (
-          <Icons.work className="h-4 w-4" />
+          <Icons.school className="h-4 w-4" />
         )}
       </div>
     </div>

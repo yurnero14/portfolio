@@ -16,7 +16,7 @@ const renderContent = (tabVal: string) => {
   if (tabVal === "personal") {
     expArr = expArr.filter((val) => val.type === "Personal Project");
   } else if (tabVal === "professional") {
-    expArr = expArr.filter((val) => val.type === "Professional");
+    expArr = expArr.filter((val) => val.type === "Academic Project");
   }
 
   return (
@@ -38,7 +38,8 @@ export default function ExperiencePage() {
         <TabsList className="conatiner grid max-w-[30rem] grid-cols-3">
           <TabsTrigger value="all">All</TabsTrigger>
           <TabsTrigger value="personal">Personal</TabsTrigger>
-          <TabsTrigger value="professional">Professional</TabsTrigger>
+          <TabsTrigger value="professional">Academic
+          </TabsTrigger>
         </TabsList>
         <TabsContent value="all" className="w-full">
           {renderContent("all")}

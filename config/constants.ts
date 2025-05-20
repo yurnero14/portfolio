@@ -22,6 +22,7 @@ export type ValidSkills =
   | "MySQL"
   | "Java"
   | "Databricks"
+  | "SQLite"
   | "Python"
   | "Docker"
   | "Kubernetes"
@@ -46,24 +47,39 @@ export type ValidSkills =
   | "Supabase"
   | "Vercel"
   | "Netlify"
+  | "NumPy"
+  | "LLMs"
+  | "SciPy"
+  | "Flutter"
+  | "Firebase"
+  | "Pandas"
+  | "Scikit-learn"
   | "Three.js"
   | "WebGL"
   | "TensorFlow"
   | "PyTorch"
   | "Spring Boot"
   | "Laravel"
+  | "Langchain"
+  | "Gradio"
+  | "matplotlib"
+  | "seaborn"
+  | "Dart"
   | "PHP";
 
 export type ValidCategory =
   | "Full Stack"
+  | "AI"
+  | "ML/DL"
   | "Frontend"
   | "Backend"
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "Data Analytics"
+  | "Scrum";
 
-export type ValidExpType = "Personal Project" | "Professional";
+export type ValidExpType = "Personal Project" | "Academic Project";
 
 export type ValidPages =
   | "home"

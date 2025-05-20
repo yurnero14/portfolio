@@ -18,33 +18,33 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Sarib's portfolio website.",
     },
   },
   skills: {
     title: "Skills",
-    description: "Key skills that define my professional identity.",
+    description: "A brief overview about my skill arsenal.",
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Sarib's key skills that define his professional identity.",
     },
   },
   experience: {
     title: "Experience",
-    description: "Highlighting career journey and impactful projects.",
+    description: "Highlighting academic journey and impactful projects.",
     metadata: {
       title: "Experience",
-      description: "Naman Barkiya's experience in building web applications.",
+      description: "Muhammad Sarib Khan's experience in building diverse applications.",
     },
   },
   
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Muhammad Sarib Khan's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Sarib's resume.",
     },
   },
   career: {
@@ -52,7 +52,7 @@ export const pagesConfig: PagesConfig = {
     description: "Professional journey and experience timeline.",
     metadata: {
       title: "Career Timeline",
-      description: "Naman Barkiya's professional journey and career timeline.",
+      description: "Sarib's professional journey and career timeline.",
     },
   },
 };
