@@ -146,18 +146,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
                     </ul>
                   </div>
 
-                  <div className="mb-3 sm:mb-4">
-                    <h4 className="font-medium mb-1 sm:mb-2 text-xs sm:text-sm">
-                      Key Achievements
-                    </h4>
-                    <ul className="list-disc pl-4 sm:pl-5 space-y-1">
-                      {experience.achievements.map((achievement, idx) => (
-                        <li key={idx} className="text-xs sm:text-sm">
-                          {achievement}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                  
 
                   <div className="mb-3 sm:mb-4">
                     <h4 className="font-medium mb-1 sm:mb-2 text-xs sm:text-sm">

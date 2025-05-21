@@ -9,10 +9,8 @@ export const siteConfig = {
     github: "https://github.com/yurnero14",
   },
   ogImage: "/Sarib.jpg",
-  iconIco:
-    "/favicon.ico",
-  logoIcon:
-    "/logo.png",
+  iconIco: "/favicon.ico",
+  logoIcon:"/logo.png",
   keywords: [
     "Muhammad Sarib Khan",
     "Full Stack Developer",
